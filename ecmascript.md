@@ -71,5 +71,29 @@ In if statements don't use braces if only one statement must happen. However use
 
 ![](.gitbook/assets/screen_shot_1396-12-11_at_3.31.10_am.png)
 
+### Switch
 
+In writing switches only notice to have the cases be indented by one level in the main switch body.
+
+![](.gitbook/assets/screen_shot_1396-12-11_at_3.35.14_am.png)
+
+### Objects
+
+If you're cloning an object with spread operator use the spread operator ofter the beginning of the object within the first line. Then remember to use enough tabs ofter the object keys that their values be aligned under a new column.
+
+![](.gitbook/assets/screen_shot_1396-12-11_at_3.39.49_am.png)
+
+When you have nested objects within the object you're defining make an empty line and then define the nested object. And have all the single value objects on the top of the object declaration
+
+![](.gitbook/assets/screen_shot_1396-12-11_at_3.43.11_am.png)
+
+### Kary Comments
+
+Kary Comments are a core building block of this coding style. When we write notes or documents, etc. we use horizontal dividers to separate parts of our document. That must happen within our codes too.
+
+Kary Comments are simply horizontal dividers with a little bit of style. You don't have to write them with hands. There are many tools available already. Check out:
+
+Kary Comments
+
+![](.gitbook/assets/screen_shot_1396-12-11_at_12.38.00_pm.png)
 
