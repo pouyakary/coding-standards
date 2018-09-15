@@ -97,3 +97,67 @@ Kary Comments
 
 ![](.gitbook/assets/screen_shot_1396-12-11_at_12.38.00_pm.png)
 
+### Array
+
+To define arrays use the very standard way of defining them. Don't break lines in the definition.
+
+![](.gitbook/assets/screenshot1397-02-29at11.52.33am.png)
+
+### Types
+
+JavaScript does not provide any static typing facilities but thanks to TypeScript and Flow it is now possible to have these functionalities in our codes. This document assumes you're using TypeScript but Flow is almost the same, so all the concepts are easy to apply there too.
+
+**Naming Types**
+
+![](.gitbook/assets/screen-shot-1397-06-24-at-6.03.18-pm.png)
+
+**Interfaces**
+
+In interfaces, like objects, use the column style and keep keys and values in separate columns. Also remember not to use any semi-colon in interfaces
+
+![](.gitbook/assets/screenshot1397-02-29at12.04.06pm.png)
+
+**Declaring Types**
+
+When declaring types don't use too much comments, also using column-style is very much rewarded because these types are usually very compressed and it's always great to make them more readable.
+
+![](.gitbook/assets/screenshot1397-02-29at12.08.21pm.png)
+
+**Type Annotations**
+
+When defining types remember to have no spaces before : and at least one space after it.
+
+![](.gitbook/assets/screenshot1397-02-29at12.11.34pm.png)
+
+### Class
+
+The only tricky part of a class is the use of Kary Comments inside of it. Comments inside of a class must be of length 60. If you're using a comment generator inside of your editors, they will automatically set the length.
+
+![](.gitbook/assets/screenshot1397-02-29at1.42.12pm.png)
+
+### Documentation Comments
+
+Documentation comments can easily live alongside Kary Comments but the idea is to not use them alone.
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3e77bac6-5e20-4bb2-9be2-6badefad45ce/ScreenShot1397-02-29at1.48.30PM.png?AWSAccessKeyId=AKIAJLJXUMP5IHUZAPFQ&Expires=1537105102&Signature=ZVqfBjohjYA%2BD7iEXAAFtEVpabI%3D)
+
+### Imports
+
+When it comes to writing writing ES6 module loaders, try to keep the column-based approach if possible.
+
+![](.gitbook/assets/screenshot1397-02-29at1.51.42pm%20%283%29.png)
+
+When using the deconstructing assignment remember to keep one space around braces
+
+![](.gitbook/assets/screenshot1397-02-29at1.54.21pm.png)
+
+### Namespaces
+
+TypeScript provides a great namespace feature that when combined with AMD/system bundlers it makes TypeScript an amazing choice. To use namespaces you have to use the namespace system and the reference paths. Here we discuss the styling for this system.
+
+![](.gitbook/assets/screenshot1397-02-29at12.25.38pm.png)
+
+Namespace must be defined on the root of the code and then you have to give it one level of indentation for Kary Section Comment and then one more level of indentation for the comments.
+
+Keep reference paths one/two lines above the namespace and below your code comments to give them their true import statement look.
+
