@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 
-## Languages
+## Language Standards
 
 * [JavaScript Family](languages/javascript.md)
 * [CSS Family](languages/css.md)
@@ -15,6 +15,6 @@
 ## Kary Comments
 
 * [Introduction to Kary Comments](kary-comments/introduction.md)
-* [Sectioning Code](kary-comments/section-comments.md)
-* [Decorational Comments](kary-comments/decorational.md)
+* [Sectioning Code](kary-comments/sectioning.md)
+* [Decorational Comments](kary-comments/decorationals.md)
 
