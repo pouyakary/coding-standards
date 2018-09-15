@@ -1,2 +1,2 @@
-# Section Comments
+# Sectioning
 
