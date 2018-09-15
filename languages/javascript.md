@@ -93,7 +93,7 @@ Kary Comments are a core building block of this coding style. When we write note
 
 Kary Comments are simply horizontal dividers with a little bit of style. You don't have to write them with hands. There are many tools available already. Check out:
 
-{% page-ref page="../kary-comments/introduction.md" %}
+{% page-ref page="../comments/introduction.md" %}
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_12.38.00_pm.png)
 

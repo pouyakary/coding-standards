@@ -52,9 +52,9 @@ Rules much be separated by one line as demonstrated in this figure:
 
 ## Kary Comments
 
-When used, [Kary Comments](../kary-comments/introduction.md) must be applied with their respective one level of indentation. And the Line Comments must deindent this level of indentation.
+When used, [Kary Comments](../comments/introduction.md) must be applied with their respective one level of indentation. And the Line Comments must deindent this level of indentation.
 
-{% page-ref page="../kary-comments/introduction.md" %}
+{% page-ref page="../comments/introduction.md" %}
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.14.42-pm.png)
 

@@ -14,7 +14,7 @@
 
 ## Kary Comments
 
-* [Introduction to Kary Comments](kary-comments/introduction.md)
-* [Sectioning Code](kary-comments/sectioning.md)
-* [Decorational Comments](kary-comments/decorationals.md)
+* [Introduction to Kary Comments](comments/introduction.md)
+* [Sectioning Code](comments/sectioning.md)
+* [Decorational Comments](comments/decorationals.md)
 
