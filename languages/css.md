@@ -5,10 +5,12 @@ description: The standard for CSS and LESS
 # CSS Family
 
 {% hint style="info" %}
-[Righteous](../tools/righteous.md) is an experimental code formatter engine that implements the Kary Coding Standard for CSS language. You can simply utilize it within your editor of choice and have all the formatting done for you. 
+**Righteous** is an experimental code formatter engine that implements the Kary Coding Standard for CSS language. You can simply utilize it within your editor of choice and have all the formatting done for you. 
+
+{% page-ref page="../tools/righteous.md" %}
 {% endhint %}
 
-### 
+
 
 ### The Rule Of Columns
 
@@ -51,6 +53,8 @@ Rules much be separated by one line as demonstrated in this figure:
 ### Kary Comments
 
 When used, [Kary Comments](../kary-comments/introduction.md) must be applied with their respective one level of indentation. And the Line Comments must deindent this level of indentation.
+
+{% page-ref page="../kary-comments/introduction.md" %}
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.14.42-pm.png)
 
