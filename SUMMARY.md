@@ -16,5 +16,5 @@
 
 * [Introduction to Kary Comments](kary-comments/introduction.md)
 * [Sectioning Code](kary-comments/section-comments.md)
-* [Flagging Code](kary-comments/reverse-section-comments.md)
+* [Decorational Comments](kary-comments/decorational.md)
 

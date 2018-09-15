@@ -23,7 +23,7 @@ Use spaces in a good way. Use at least one space before and after each parenthes
 
 ## Functions
 
-In functions have a space between the function name and it's parentheses. Also in the argument names and between the function's return type and braces. If your function got more than 80 character break it down to many lines like the Objective-C style and align the parameters under each other where : are all in one column. In this case remember to have a line between the function's declaration and start of your code.
+In functions have a space between the function name and it's parentheses. Also in the argument names and between the function's return type and braces. If your function got more than 80 character break it down to many lines like the Objective-C style and align the parameters under each other where `:` are all in one column. In this case remember to have a line between the function's declaration and start of your code.
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_2.57.43_am.png)
 
@@ -45,7 +45,7 @@ As a general rule try to define everything as constant, it's much more healthy c
 
 ## Ternary Operator
 
-When using ternary operator remember to always wrap the whole thing in a parentheses. Then write a first line with conditions and then after that write the ? : and \) like this example.
+When using ternary operator remember to always wrap the whole thing in a parentheses. Then write a first line with conditions and then after that write the `?` `:` and `)` like this example.
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.10.37_am.png)
 
@@ -65,13 +65,13 @@ The nice way to return a JSX with an extra tab after the return keyword and two 
 
 ![The ugly way of returning JSX](../.gitbook/assets/screen_shot_1396-12-11_at_3.27.10_am.png)
 
-## If
+## Control Structures
 
-In if statements don't use braces if only one statement must happen. However use them if the condition is too big and the user might not be easily able to spot the statement. Remember that in case of long conditions break them to more than one line where the && or \|\| operators are at the end of the previous line and that both statements start at one character column \(notice the this.lastStates\)
+In these control structures don't use braces if only one statement must happen. However use them if the predicate is too big and the user might not be easily able to spot the statement. Remember that in case of long conditions break them to more than one line where the `&&` / `||` / `;`  operators are at the end of the previous line and that both statements start at one character column \(notice the `this.lastState`s\)
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.31.10_am.png)
 
-## Switch
+### Switch
 
 In writing switches only notice to have the cases be indented by one level in the main switch body.
 
@@ -125,7 +125,7 @@ When declaring types don't use too much comments, also using column-style is ver
 
 ### **Type Annotations**
 
-When defining types remember to have no spaces before : and at least one space after it.
+When defining types remember to have no spaces before `:` and at least one space after it.
 
 ![](../.gitbook/assets/screenshot1397-02-29at12.11.34pm.png)
 
