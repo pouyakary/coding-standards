@@ -5,7 +5,7 @@ description: The standard for CSS and LESS
 # CSS Family
 
 {% hint style="info" %}
-[Righteous](../tools/righteous.md) is an experimental code formatter engine that implements the Kary Coding Standard for CSS language. You can simple utilize it within your editor of choice and have all the formatting done for you. 
+[Righteous](../tools/righteous.md) is an experimental code formatter engine that implements the Kary Coding Standard for CSS language. You can simply utilize it within your editor of choice and have all the formatting done for you. 
 {% endhint %}
 
 ### 
