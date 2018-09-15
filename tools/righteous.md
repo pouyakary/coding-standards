@@ -14,7 +14,7 @@ Currently—and till reaching a stable release—Righteous is only available as 
 
 [**Install Righteous for Visual Studio Code**](https://marketplace.visualstudio.com/items?itemName=karyfoundation.righteous)\*\*\*\*
 
-![Righteous overrides the default formatter and silently beautifies your code for you ](../.gitbook/assets/screen-shot-1397-06-24-at-10.41.14-pm.png)
+![Righteous overrides the default formatter and silently beautifies your code for you](../.gitbook/assets/righteous-demo.gif)
 
 ### Righteous Core for Developers
 
