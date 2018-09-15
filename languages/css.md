@@ -12,7 +12,7 @@ description: The standard for CSS and LESS
 
 
 
-### The Rule Of Columns
+## The Rule Of Columns
 
 CSS is basically a sheet of settings and it'll be so much more readable if settings look like settings. So putting rules into two columns and showing them as a table is the most convenient  way of showing these sheets.
 
@@ -28,13 +28,13 @@ To understand it better look at this example. Here as you can see the tabs and s
 You don't have to write this by hand and worry about it since it is automatically done by [Righteous](../tools/righteous.md). 
 {% endhint %}
 
-### Property Spacings
+## Property Spacings
 
 Very much like the other languages, it is encouraged to have a whitespace after `(` and one before `)`
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.04.04-pm.png)
 
-### Variables
+## Variables
 
 CSS Variables are nice additions to CSS and to have them rendered beautifully we have a special rule about them. Since variables are no settings, they have to be separated from the settings and that's why they should be defined in the top of the rule and separated by one empty line to the settings
 
@@ -44,13 +44,13 @@ Also as you can see in the example, the way of writing variables is much differe
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.08.26-pm.png)
 
-### Rule Spacing
+## Rule Spacing
 
 Rules much be separated by one line as demonstrated in this figure:
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.11.48-pm.png)
 
-### Kary Comments
+## Kary Comments
 
 When used, [Kary Comments](../kary-comments/introduction.md) must be applied with their respective one level of indentation. And the Line Comments must deindent this level of indentation.
 
@@ -58,13 +58,13 @@ When used, [Kary Comments](../kary-comments/introduction.md) must be applied wit
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.14.42-pm.png)
 
-### Imports
+## Imports
 
 Imports must be written with no spacing between them
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.43.08-pm.png)
 
-### Multiple Selectors in One Rule
+## Multiple Selectors in One Rule
 
 A radical but nice idea is to have all the selectors in one line, beautifully written as below and that's exactly how this standard implements them
 

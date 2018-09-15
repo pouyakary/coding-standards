@@ -7,7 +7,7 @@ description: >-
 
 # JavaScript Family
 
-### Don't use semicolons
+## Don't use semicolons
 
 Semicolons are good, but they are not needed in ECMAScript. You can read [this post on how to code without semicolons](https://mislav.net/2010/05/semicolons/). Truth is while semicolons are optional and good to be used because everyone is using them, they are really ugly and by omitting them your code looks just a lot better and therefore semicolons are ignored within this standard.
 
@@ -15,13 +15,13 @@ Also remember that because this standard is designed for semicolon-less codes, y
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.57.38_am.png)
 
-### Spaces
+## Spaces
 
 Use spaces in a good way. Use at least one space before and after each parenthesis, braces, curly braces. Have at least an space after comma in the array and object notations. And always have at least one space before and after each operator. Only in case of an object or array inside a parentheses don't use spaces in between and have them as: `({ })`
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_2.48.42_am.png)
 
-### Functions
+## Functions
 
 In functions have a space between the function name and it's parentheses. Also in the argument names and between the function's return type and braces. If your function got more than 80 character break it down to many lines like the Objective-C style and align the parameters under each other where : are all in one column. In this case remember to have a line between the function's declaration and start of your code.
 
@@ -37,19 +37,19 @@ When writing arrow functions remember to always separate the body from the defin
 
 If the arrow function has only one parameter, don't use parentheses. And in cases where the whole code is one line don't use braces.
 
-### Variable & Constants
+## Variable & Constants
 
 As a general rule try to define everything as constant, it's much more healthy code. Try to write the value of each variable / constant under them with a level of indentation. It makes your code much more organized and readable.
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.11.12_am.png)
 
-### Ternary Operator
+## Ternary Operator
 
 When using ternary operator remember to always wrap the whole thing in a parentheses. Then write a first line with conditions and then after that write the ? : and \) like this example.
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.10.37_am.png)
 
-### JSX
+## JSX
 
 JSX is a terrible element when it comes to readability and so you must be extra carful not to unleash the daemon underneath it. To write beautiful JSX use the Objective-C style of function parameters and align all the params with = under each other. Add extra spacing between names, = and the values and also keep the spacings within the the braces.
 
@@ -65,19 +65,19 @@ The nice way to return a JSX with an extra tab after the return keyword and two 
 
 ![The ugly way of returning JSX](../.gitbook/assets/screen_shot_1396-12-11_at_3.27.10_am.png)
 
-### If
+## If
 
 In if statements don't use braces if only one statement must happen. However use them if the condition is too big and the user might not be easily able to spot the statement. Remember that in case of long conditions break them to more than one line where the && or \|\| operators are at the end of the previous line and that both statements start at one character column \(notice the this.lastStates\)
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.31.10_am.png)
 
-### Switch
+## Switch
 
 In writing switches only notice to have the cases be indented by one level in the main switch body.
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.35.14_am.png)
 
-### Objects
+## Objects
 
 If you're cloning an object with spread operator use the spread operator ofter the beginning of the object within the first line. Then remember to use enough tabs ofter the object keys that their values be aligned under a new column.
 
@@ -87,7 +87,7 @@ When you have nested objects within the object you're defining make an empty lin
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.43.11_am.png)
 
-### Kary Comments
+## Kary Comments
 
 Kary Comments are a core building block of this coding style. When we write notes or documents, etc. we use horizontal dividers to separate parts of our document. That must happen within our codes too.
 
@@ -97,51 +97,51 @@ Kary Comments are simply horizontal dividers with a little bit of style. You don
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_12.38.00_pm.png)
 
-### Array
+## Array
 
 To define arrays use the very standard way of defining them. Don't break lines in the definition.
 
 ![](../.gitbook/assets/screenshot1397-02-29at11.52.33am.png)
 
-### Types
+## Types
 
 JavaScript does not provide any static typing facilities but thanks to TypeScript and Flow it is now possible to have these functionalities in our codes. This document assumes you're using TypeScript but Flow is almost the same, so all the concepts are easy to apply there too.
 
-**Naming Types**
+### **Naming Types**
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-6.03.18-pm.png)
 
-**Interfaces**
+### **Interfaces**
 
 In interfaces, like objects, use the column style and keep keys and values in separate columns. Also remember not to use any semi-colon in interfaces
 
 ![](../.gitbook/assets/screenshot1397-02-29at12.04.06pm.png)
 
-**Declaring Types**
+### **Declaring Types**
 
 When declaring types don't use too much comments, also using column-style is very much rewarded because these types are usually very compressed and it's always great to make them more readable.
 
 ![](../.gitbook/assets/screenshot1397-02-29at12.08.21pm.png)
 
-**Type Annotations**
+### **Type Annotations**
 
 When defining types remember to have no spaces before : and at least one space after it.
 
 ![](../.gitbook/assets/screenshot1397-02-29at12.11.34pm.png)
 
-### Class
+## Class
 
 The only tricky part of a class is the use of Kary Comments inside of it. Comments inside of a class must be of length 60. If you're using a comment generator inside of your editors, they will automatically set the length.
 
 ![](../.gitbook/assets/screenshot1397-02-29at1.42.12pm.png)
 
-### Documentation Comments
+## Documentation Comments
 
 Documentation comments can easily live alongside Kary Comments but the idea is to not use them alone.
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3e77bac6-5e20-4bb2-9be2-6badefad45ce/ScreenShot1397-02-29at1.48.30PM.png?AWSAccessKeyId=AKIAJLJXUMP5IHUZAPFQ&Expires=1537105102&Signature=ZVqfBjohjYA%2BD7iEXAAFtEVpabI%3D)
 
-### Imports
+## Imports
 
 When it comes to writing writing ES6 module loaders, try to keep the column-based approach if possible.
 
@@ -151,7 +151,7 @@ When using the deconstructing assignment remember to keep one space around brace
 
 ![](../.gitbook/assets/screenshot1397-02-29at1.54.21pm.png)
 
-### Namespaces
+## Namespaces
 
 TypeScript provides a great namespace feature that when combined with AMD/system bundlers it makes TypeScript an amazing choice. To use namespaces you have to use the namespace system and the reference paths. Here we discuss the styling for this system.
 
