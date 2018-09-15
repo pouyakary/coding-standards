@@ -27,16 +27,12 @@ In case you want to have Righteous working in other tools and editors, You can e
 //
 
     const righteous = require('righteous-core')
-    
-//
-// ─── CONSTANTS ──────────────────────────────────────────────────────────────────
-//
 
-    const code = "h1 { color: red }"
-    
 //
 // ─── BODY ───────────────────────────────────────────────────────────────────────
 //
+
+    const code = "h1 { color: red }"
 
     try {
         // Righteous is a simple function, you feed
