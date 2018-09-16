@@ -43,7 +43,5 @@ Kary Comments are the foundations of this standard and while most languages cont
 
 {% page-ref page="comments/sectioning.md" %}
 
-{% page-ref page="comments/decorationals.md" %}
-
 
 

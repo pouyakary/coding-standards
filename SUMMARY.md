@@ -16,7 +16,7 @@
 
 * [Introduction to Kary Comments](comments/introduction.md)
 * [Sectioning Code](comments/sectioning.md)
-* [Decorational Comments](comments/decorationals.md)
+* [Comments Reference](comments/reference.md)
 
 ## External Resources
 
