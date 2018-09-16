@@ -6,11 +6,11 @@ description: An experimental CSS formatter that implements the Kary Coding Stand
 
 ![Your humble witch](../.gitbook/assets/framed-head.png)
 
-Righteous is a formatter for CSS that implements Kary Coding Standards. It is written as a reconstructing formatter; It means righteous parses the code into an AST \(abstract syntax tree\) and then rewrites that tree to CSS. This technique ensures everything is based on the standard.
+Righteous is a formatter for CSS that implements Kary Coding Standards. It is written as a reconstructing formatter which means righteous parses the code into an AST \(abstract syntax tree\) and then rewrites that tree into CSS. This technique ensures everything is based on the standard and therefore leaves nothing to be done by the user.
 
 ## Righteous for Visual Studio Code
 
-Currently—and till reaching a stable release—Righteous is only available as a preview Visual Studio Code. Righteous is being used in some production projects to be tested and when ensured, it'll be released for other editors too.
+Currently—and till reaching a stable release—Righteous is only available as a _Preview_ Visual Studio Code extension. Righteous is being used in many production/experimental projects to be diagnosed with care. You may start using it but you must be careful about it.
 
 [**Install Righteous for Visual Studio Code**](https://marketplace.visualstudio.com/items?itemName=karyfoundation.righteous)\*\*\*\*
 
@@ -18,7 +18,15 @@ Currently—and till reaching a stable release—Righteous is only available as 
 
 ## Righteous Core for Developers
 
-In case you want to have Righteous working in other tools and editors, You can easily do so by getting the npm package `righteous-core`
+Righteous is a JavaScript package designed to be runnable anywhere. It gives the simplest API possible to make the task of its integration the easiest. It can be easily used within any [Electron](https://electronjs.org) based editor.
+
+The **npm** package for Righteous can be installed as
+
+```bash
+$ npm install --save righteous-core
+```
+
+And be very simply used as
 
 ```javascript
 
