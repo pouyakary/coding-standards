@@ -25,7 +25,7 @@
 * [Kary Pro Colors — Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=karyfoundation.theme-karyfoundation-themes)
 * [Comment V — Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=karyfoundation.comment)
 * [Comment IV  — Web Application](https://comment.kary.us)
-* [Righteous Core — NPM Package](https://github.com/pmkary/righteous)
+* [Righteous Core — To Develop Righteous Powered Tools](https://github.com/pmkary/righteous)
 * [Kary Pro Colors  — Core Definitions](https://github.com/pmkary/ProColors)
 * [Comment 3  — Native Mac OS X Application](https://github.com/pmkary/comment-3)
 
