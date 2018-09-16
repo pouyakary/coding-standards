@@ -4,6 +4,12 @@ description: This page explains all the comments and their usage
 
 # Comments Reference
 
+{% hint style="success" %}
+This reference is mostly based on the legacy documentations of [Comment IV's Wiki](https://github.com/pmkary/comment/wiki). The "Sectioning Code" is a much more in-depth documentation for the modern age of Kary Comments.
+
+{% page-ref page="sectioning.md" %}
+{% endhint %}
+
 ## Section and Line Comments
 
 The **Section** and **Line** comments are a pair comment to be used as a group. The line comment is designed to draw a line between parts of the code so that you can read the code with ease. Then section comment combines the line comment with a _one line comment_ — like `// something` — to title the sections. Take this code as an example:

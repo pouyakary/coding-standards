@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Overview of Kary Coding Standards](README.md)
+* [Kary's Coding Umbrella](karys-coding-umbrella.md)
 
 ## Language Standards
 
@@ -28,4 +29,6 @@
 * [Righteous Core — To Develop Righteous Powered Tools](https://github.com/pmkary/righteous)
 * [Kary Pro Colors  — Core Definitions](https://github.com/pmkary/ProColors)
 * [Comment 3  — Native Mac OS X Application](https://github.com/pmkary/comment-3)
+* [KaryScript — First Prototype](https://github.com/pmkary/karyscript)
+* [themeX](https://github.com/pmkary/themeX)
 
