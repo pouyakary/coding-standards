@@ -4,7 +4,11 @@ description: The standard for CSS and LESS
 
 # CSS Family
 
-{% hint style="info" %}
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% endhint %}
+
+{% hint style="success" %}
 **Righteous** is an experimental code formatter engine that implements the Kary Coding Standard for CSS language. You can simply utilize it within your editor of choice and have all the formatting done for you. 
 
 {% page-ref page="../tools/righteous.md" %}

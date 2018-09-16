@@ -1,5 +1,9 @@
 # Kary's Coding Umbrella
 
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% endhint %}
+
 ![The Kary&apos;s Coding Umbrella](.gitbook/assets/the-karys-coding-umbrella.png)
 
 Kary's Coding Umbrella is an ecosystem of many different families of projects, designed to enhance programming beauty. Kary Coding Standards are part of this bigger project and therefore it is nice to know the rest of the umbrella

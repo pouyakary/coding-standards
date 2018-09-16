@@ -4,6 +4,10 @@ description: This page explains all the comments and their usage
 
 # Comments Reference
 
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% endhint %}
+
 {% hint style="success" %}
 This reference is mostly based on the legacy documentations of [Comment IV's Wiki](https://github.com/pmkary/comment/wiki). The "Sectioning Code" is a much more in-depth documentation for the modern age of Kary Comments.
 

@@ -4,6 +4,12 @@ description: An experimental CSS formatter that implements the Kary Coding Stand
 
 # Righteous — CSS Formatter
 
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% endhint %}
+
+
+
 ![Your humble witch](../.gitbook/assets/framed-head.png)
 
 Righteous is a formatter for CSS that implements Kary Coding Standards. It is written as a reconstructing formatter which means righteous parses the code into an AST \(abstract syntax tree\) and then rewrites that tree into CSS. This technique ensures everything is based on the standard and therefore leaves nothing to be done by the user.

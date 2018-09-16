@@ -6,6 +6,10 @@ description: >-
 
 # Introduction to Kary Comments
 
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% endhint %}
+
 ## Fundamentals
 
 Code is a piece of writing; mostly in a textual language and therefore like any other writing it is important to introduce the fundamentals of layouts into code for better management, beauty and ergonomics.

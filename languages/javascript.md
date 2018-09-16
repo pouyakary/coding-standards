@@ -7,6 +7,10 @@ description: >-
 
 # JavaScript Family
 
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% endhint %}
+
 ## Don't use Semicolons
 
 Semicolons are good, but they are not needed in ECMAScript. You can read [this post on how to code without semicolons](https://mislav.net/2010/05/semicolons/). Truth is while semicolons are optional and good to be used—since everyone is using them—they are really ugly. By omitting them your code looks just a lot better and thus semicolons are ignored within this standard.

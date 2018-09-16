@@ -7,6 +7,10 @@ description: >-
 
 # Sectioning Code
 
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% endhint %}
+
 ## What a Section Comment is?
 
 A section comment is a Kary Comment that names the section. See in this example how section comments have separated the parts. 

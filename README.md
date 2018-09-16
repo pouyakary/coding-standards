@@ -1,5 +1,9 @@
 # Overview of Kary Coding Standards
 
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% endhint %}
+
 ## Philosophy
 
 Code is something very pretty. It's a form af art and engineering. Yet, we write codes that look messy and horrible. I believe that codes must look nice and beautiful. When you read them they must show how carefully they were written and how much love was put into writing them. Code must look like candy and art. This standard is one—in a [series of attempts](https://writings.kary.us/2017/05/16/my-journey-to-clean-code/)—to push the state of beauty and functionality in code. 
