@@ -1,13 +1,13 @@
 ---
 description: >-
-  These standard is for JavaScript, TypeScript and JSX. While they are pretty
-  much specific to the ECMAScript world; most of them can be used within other
-  languages too.
+  These specifications are for JavaScript, TypeScript and JSX. While they are
+  pretty much specific to the ECMAScript world; most of them can be used within
+  other languages too.
 ---
 
 # JavaScript Family
 
-## Don't use semicolons
+## Don't use Semicolons
 
 Semicolons are good, but they are not needed in ECMAScript. You can read [this post on how to code without semicolons](https://mislav.net/2010/05/semicolons/). Truth is while semicolons are optional and good to be used because everyone is using them, they are really ugly and by omitting them your code looks just a lot better and therefore semicolons are ignored within this standard.
 
