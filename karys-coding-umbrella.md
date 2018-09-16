@@ -1,9 +1,3 @@
----
-description: >-
-  The Coding Umbrella is a set of software, tools and techniques to make coding
-  beautiful. This page explains parts of this umbrella.
----
-
 # Kary's Coding Umbrella
 
 ![The Kary&apos;s Coding Umbrella](.gitbook/assets/the-karys-coding-umbrella.png)
