@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Overview of Kary Coding Standards](README.md)
 
 ## Language Standards
 
