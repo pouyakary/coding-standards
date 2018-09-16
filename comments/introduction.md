@@ -12,11 +12,15 @@ Code is a piece of writing; mostly in a textual language and therefore like any 
 
 ### Negative Space
 
-Have you ever noticed how much a good book has empty white spaces? That is called a **negative space**. It is proven that mind cannot process too much and when provided with a figure, picture, or a hard sentence that requires focus it is needed to have white space margins surrounding that content to provide a more relaxed space for the mind to breath. Even this very article has a lots of negative space in it.
+Have you ever noticed how much a good book has empty white spaces? That is called a **negative space**. It is proven that mind cannot process too much and when provided with a many figures, or a hard sentences it becomes really hard for the mind to understand the context.
+
+Designers—when given contents that require focus—surround those content with enough negative space that it becomes easy to concentrate and breath. If you look you see that even this very document is full of negative spaces.
 
 ![Graphic Design for Art, Fashion, Film, Architecture, Photography, Product Design &amp; Everything In Between &#x2014; Andy Cooke](../.gitbook/assets/51b37aa47143463743600b7f7da45d55c0da2aec_2200.jpg)
 
-Code is a heavily complex subject. Most of the times codes are harder than math since the reader has to have thousands of lines of code in their mind to be able to read a new part of a complex system. Yet coders do not use white space enough, you can see that over the years tab is reduced from 4 spaces to 2. And if you think about negative space you realize programmers don't even bother. Kary Comments try to overcome this problem by forcing negative space into code.
+Code is a heavily complex subject. Sometimes; even harder than math since the reader has to have thousands of lines of code in their mind to be able to read a new part of a complex system. Yet, coders do not use white space enough. Most coders love the idea of small fonts, longer lines and less spaces for a tab. What we know as the spaghetti code is the ultimate nightmare of this flow.
+
+Kary Comments introduce enough indentation and empty lines that when dealing with a code, the users focus on the context that is relevant to them. They get the chance to breath every once in a while and that is a big help.
 
 ### Eye Flow
 
@@ -44,18 +48,13 @@ Kary Comments are ways to separate parts of your code; create desirable negative
 
 ## How To Write These Comments?
 
-As you can see writing these comments are really hard by hand and therefore a series of software are made to make it possible. These are some of these software:
+Writing these comments are really hard by hand and therefore a series of software are made to make it possible. They come in many forms and can be used in any platform. For Visual Studio Code you have V, for OS X the 3 and remember that IV works on the browser so you have it on all platforms and editors.
 
-* [Comment V — For Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=karyfoundation.comment)
-* [Comment IV — In the browser](http://comment.kary.us/)
-* [Kary Graph's Embedded Comment V](https://github.com/pmkary/graph)
-* [Comment 3 — Native Mac OS X app](https://github.com/pmkary/comment-3)
+
 
 
 
 {% hint style="info" %}
 The pictures within this document are shot by the Creative Boom magazine. [The full article can be found here](https://www.creativeboom.com/resources/new-book-reveals-groundbreaking-campaigns-from-some-of-the-worlds-leading-studios/)
 {% endhint %}
-
-
 

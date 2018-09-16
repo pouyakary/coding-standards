@@ -12,19 +12,13 @@ Righteous is a formatter for CSS that implements Kary Coding Standards. It is wr
 
 Currently—and till reaching a stable release—Righteous is only available as a _Preview_ Visual Studio Code extension. Righteous is being used in many production/experimental projects to be diagnosed with care. You may start using it but you must be careful about it.
 
-[**Install Righteous for Visual Studio Code**](https://marketplace.visualstudio.com/items?itemName=karyfoundation.righteous)\*\*\*\*
-
 ![Righteous overrides the default formatter and silently beautifies your code for you](../.gitbook/assets/righteous-demo.gif)
 
 ## Righteous Core for Developers
 
 Righteous is a JavaScript package designed to be runnable anywhere. It gives the simplest API possible to make the task of its integration the easiest. It can be easily used within any [Electron](https://electronjs.org) based editor.
 
-The **npm** package for Righteous can be installed as
-
-```bash
-$ npm install --save righteous-core
-```
+The **npm** package for Righteous can be found at
 
 And be very simply used as
 
