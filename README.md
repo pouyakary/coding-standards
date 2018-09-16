@@ -8,16 +8,18 @@ Code is something very pretty. It's a form af art and engineering. Yet, we write
 
 ## Core Beliefs
 
-1. Programmers are no robots, they have hearts and they deserve beauty
-2. Code is a  form of art and literature and thus it deserves to be written beautifully
-3. Code is a _Piece of Writing_ and therefore must have layout and design principles involved in it
-4. Writing something with care results in higher quality
+1. Programmers are no robots, they have hearts and they deserve beauty.
+2. Code is a  form of art thus it deserves to be written beautifully.
+3. Code is a Piece of Writing and therefore must have layout and design principles involved in it.
+4. Writing something with care results in higher quality.
 
-Kary Coding Standards is an umbrella body of works that contains many standards, designs, beliefs, libraries, languages, and tools to achieve a harmonious state-of-the-art coding standard that respects the four mentioned believes.
+Kary Coding Standards a body of works that contains many standards, designs, beliefs, libraries, languages, and tools to achieve a harmonious state-of-the-art coding standard that respects the four mentioned believes. It is itself also a member of a much bigger umbrella project 
+
+{% page-ref page="karys-coding-umbrella.md" %}
 
 ## Structure of This Document
 
-This document is the documentation and specification of Kary Coding Standards. 
+This document is the documentation and specification of Kary Coding Standards and therefore separated into 3 parts.
 
 ### Language Standards
 
@@ -29,7 +31,7 @@ These are the specifications of the coding standard for some general languagesâ€
 
 ### Software Tools
 
-The Kary Coding Standards are no easy standards to implement. They put functionality and beauty first and therefore typing efficiency is not a priority. That is because, the standards have their own set of companying software that facilitate the heavy formatting and generation of complex statements \(such as Kary Comments\). The documentation for these tools are also included within this document to make it a coherent and self-contained standard.
+The Kary Coding Standards are no easy standards to implement. They put functionality and beauty first and therefore typing efficiency is not a priority. That is because, the standards have their own set of accompanying software that facilitate the heavy formatting and generation of complex statements \(such as Kary Comments\). The documentation for these tools are also included within this document to make it a coherent and self-contained standard.
 
 {% page-ref page="tools/righteous.md" %}
 
@@ -43,5 +45,5 @@ Kary Comments are the foundations of this standard and while most languages cont
 
 {% page-ref page="comments/sectioning.md" %}
 
-
+{% page-ref page="comments/reference.md" %}
 
