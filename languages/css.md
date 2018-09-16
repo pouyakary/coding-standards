@@ -10,17 +10,13 @@ description: The standard for CSS and LESS
 {% page-ref page="../tools/righteous.md" %}
 {% endhint %}
 
-
-
 ## The Rule Of Columns
 
-CSS is basically a sheet of settings and it'll be so much more readable if settings look like settings. So putting rules into two columns and showing them as a table is the most convenient  way of showing these sheets.
-
-Rule here is that that each column must begin at a tab and the space between the two must not be less than 2 characters.
+CSS is basically a sheet of settings and therefore, putting rules into two columns and showing them as a table is the most convenient way of formatting CSS. The basic rule of columns here is that that each column must begin at a tab and the space between the two columns must be at least 2 characters.
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-6.42.56-pm.png)
 
-To understand it better look at this example. Here as you can see the tabs and spaces are rendered with arrows and dots. Now if you look at the column of properties it has started at the tab that is aligned to the number 2, the reason is if it started at column 1 then the number of characters between the two columns would have been 1 char \(as the selection shows\)
+Here as you can see the tabs and spaces are rendered with arrows and dots. Now if you look at the column of properties it has started at the tab that is aligned to the number 2. The reason is, if it started at column 1 then the number of characters between the two columns would have been 1 char \(as the selection shows\)
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-6.58.14-pm.png)
 
@@ -30,9 +26,13 @@ You don't have to write this by hand and worry about it since it is automaticall
 
 ## Property Spacings
 
-Very much like the other languages, it is encouraged to have a whitespace after `(` and one before `)`
+Very much like the other languages, it is encouraged to have a whitespace after `(` and one before `)` 
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.04.04-pm.png)
+
+{% hint style="danger" %}
+Since it is encouraged and not enforced; Righteous does not format the properties of a rule and therefore it is the user's decision to write the rules in this way. 
+{% endhint %}
 
 ## Variables
 
@@ -52,7 +52,7 @@ Rules much be separated by one line as demonstrated in this figure:
 
 ## Kary Comments
 
-When used, [Kary Comments](../comments/introduction.md) must be applied with their respective one level of indentation. And the Line Comments must deindent this level of indentation.
+When used, [Kary Comments](../comments/introduction.md) must be applied with their respective one level of indentation. Also, it is a necessity that Line Comments decrease one level of indentation.
 
 {% page-ref page="../comments/introduction.md" %}
 
@@ -66,7 +66,7 @@ Imports must be written with no spacing between them
 
 ## Multiple Selectors in One Rule
 
-A radical but nice idea is to have all the selectors in one line, beautifully written as below and that's exactly how this standard implements them
+A radical but nice idea is to have all the selectors in one line, beautifully written as below and that's exactly how this standard implements them.
 
 ![](../.gitbook/assets/screen-shot-1397-06-24-at-7.36.05-pm.png)
 
