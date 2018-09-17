@@ -28,63 +28,15 @@ And be very simply used as
 
 {% tabs %}
 {% tab title="KaryScript" %}
-```text
-fix righteous = (require 'righteous-core')
-
-fix code = "h1 { color: red }"
-
-try {
-    // Righteous is a simple function, you feed
-    // it source code and it returns the formated 
-    // one
-    const formattedCode = righteous( code )
-    
-} catch ( e ) {
-    // also keep in mind that on parse failiure
-    // or unsupported tokens, it'll throw you errors
-    // so always have the try/catch
-    throw e
-}
-```
+![](../.gitbook/assets/screen-shot-1397-06-26-at-9.36.29-pm.png)
 {% endtab %}
 
 {% tab title="JavaScript" %}
-```javascript
-const righteous = require('righteous-core')
-
-const code = "h1 { color: red }"
-
-try {
-    // Righteous is a simple function, you feed
-    // it source code and it returns the formated 
-    // one
-    const formattedCode = righteous( code )
-    
-} catch ( e ) {
-    // also keep in mind that on parse failiure
-    // or unsupported tokens, it'll throw you errors
-    // so always have the try/catch
-    throw e
-}
-```
+![](../.gitbook/assets/screen-shot-1397-06-26-at-9.45.37-pm.png)
 {% endtab %}
 
-{% tab title="CoffeeScript" %}
-```coffeescript
-righteous = require('righteous-core')
-code = 'h1 { color: red }'
-
-try
-    # Righteous is a simple function, you feed
-    # it source code and it returns the formated
-    # one
-    formattedCode = righteous(code)
-catch e
-    # also keep in mind that on parse failiure
-    # or unsupported tokens, it'll throw you errors
-    # so always have the try/catch
-    throw e
-```
+{% tab title="CoffeScript" %}
+![](../.gitbook/assets/screen-shot-1397-06-26-at-9.47.07-pm.png)
 {% endtab %}
 {% endtabs %}
 
