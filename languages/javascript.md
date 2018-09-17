@@ -7,8 +7,8 @@ description: >-
 
 # JavaScript Family
 
-{% hint style="info" %}
-You are reading a draft edition of this document. Please if you found any errors, report them to [kary@gnu.org](mailto:kary@gnu.org)
+{% hint style="danger" %}
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
 {% endhint %}
 
 ## Don't use Semicolons

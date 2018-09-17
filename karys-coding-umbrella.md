@@ -1,7 +1,7 @@
 # Kary's Coding Umbrella
 
 {% hint style="danger" %}
-You are reading a draft edition of this document. Please if you found any errors, report them to [kary@gnu.org](mailto:kary@gnu.org)
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
 {% endhint %}
 
 ![The Kary&apos;s Coding Umbrella](.gitbook/assets/the-karys-coding-umbrella.png)

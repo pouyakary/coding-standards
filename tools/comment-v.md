@@ -5,7 +5,7 @@ description: Comment V is a Kary Comments Generator for Visual Studio Code.
 # Comment V for Visual Studio Code
 
 {% hint style="danger" %}
-You are reading a draft edition of this document. Please if you found any errors, report them to [kary@gnu.org](mailto:kary@gnu.org)
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
 {% endhint %}
 
 Comment V is the most user-friendly implementation of Kary Comment Generators \(KCGs\). Unlike the previous versions \(III, IV\); Comment V is an editor extension and as a result it knows the environment of the code, it know the language, indentation settings, et cetera and therefore with push of a button it is able to write the desirable comment for you.

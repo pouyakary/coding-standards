@@ -5,7 +5,7 @@ description: An experimental CSS formatter that implements the Kary Coding Stand
 # Righteous — CSS Formatter
 
 {% hint style="danger" %}
-You are reading a draft edition of this document. Please if you found any errors, report them to [kary@gnu.org](mailto:kary@gnu.org)
+You are reading a draft edition of this document. If you found any errors, please report them to [kary@gnu.org](mailto:kary@gnu.org)
 {% endhint %}
 
 ![Your humble witch](../.gitbook/assets/framed-head.png)
@@ -26,34 +26,67 @@ The **npm** package for Righteous can be found at
 
 And be very simply used as
 
-```javascript
+{% tabs %}
+{% tab title="KaryScript" %}
+```text
+fix righteous = (require 'righteous-core')
 
-//
-// ─── IMPORTS ────────────────────────────────────────────────────────────────────
-//
+fix code = "h1 { color: red }"
 
-    const righteous = require('righteous-core')
-
-//
-// ─── BODY ───────────────────────────────────────────────────────────────────────
-//
-
-    const code = "h1 { color: red }"
-
-    try {
-        // Righteous is a simple function, you feed
-        // it source code and it returns the formated 
-        // one
-        const formattedCode = righteous( code )
-        
-    } catch ( e ) {
-        // also keep in mind that on parse failiure
-        // or unsupported tokens, it'll throw you errors
-        // so always have the try/catch
-        throw e
-    }
+try {
+    // Righteous is a simple function, you feed
+    // it source code and it returns the formated 
+    // one
+    const formattedCode = righteous( code )
     
-// ────────────────────────────────────────────────────────────────────────────────
-
+} catch ( e ) {
+    // also keep in mind that on parse failiure
+    // or unsupported tokens, it'll throw you errors
+    // so always have the try/catch
+    throw e
+}
 ```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+const righteous = require('righteous-core')
+
+const code = "h1 { color: red }"
+
+try {
+    // Righteous is a simple function, you feed
+    // it source code and it returns the formated 
+    // one
+    const formattedCode = righteous( code )
+    
+} catch ( e ) {
+    // also keep in mind that on parse failiure
+    // or unsupported tokens, it'll throw you errors
+    // so always have the try/catch
+    throw e
+}
+```
+{% endtab %}
+
+{% tab title="CoffeeScript" %}
+```coffeescript
+righteous = require('righteous-core')
+code = 'h1 { color: red }'
+
+try
+    # Righteous is a simple function, you feed
+    # it source code and it returns the formated
+    # one
+    formattedCode = righteous(code)
+catch e
+    # also keep in mind that on parse failiure
+    # or unsupported tokens, it'll throw you errors
+    # so always have the try/catch
+    throw e
+```
+{% endtab %}
+{% endtabs %}
+
+
 
