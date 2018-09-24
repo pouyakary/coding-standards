@@ -61,17 +61,23 @@ As a general rule, try to define everything as constant. it's much more healthy 
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.11.12_am.png)
 
-## Multi Line Strings
+## Strings
 
-### Template Strings
+### String Interpolation
+
+String Interpolation facility provided by template strings have proven inefficient and extremely hard to scale. This coding standard is in the favor of older strings since they are natural to scale and easy to read. 
+
+{% hint style="warning" %}
+This is only a matter of taste. If you like template strings; use them as you wish. It's completely fine.
+{% endhint %}
+
+![](../.gitbook/assets/screen-shot-1397-07-02-at-2.23.26-pm.png)
+
+### Multi-Line Strings
 
 Template strings are a simple nice way to define multiline strings in JavaScript and they are becoming a widely used tool
 
 ![](../.gitbook/assets/screen-shot-1397-07-02-at-1.54.49-pm.png)
-
-Yet their signs aren't readable enough and therefore we provide an alternative notation.
-
-### Old-School Multi Line Strings
 
 For those who don't like the template strings, this is the alternative solution. Among many ways to arrange the multi line strings, this one is the most beautiful but also the most easy to write. 
 
