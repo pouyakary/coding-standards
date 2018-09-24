@@ -61,6 +61,26 @@ As a general rule, try to define everything as constant. it's much more healthy 
 
 ![](../.gitbook/assets/screen_shot_1396-12-11_at_3.11.12_am.png)
 
+## Multi Line Strings
+
+### Template Strings
+
+Template strings are a simple nice way to define multiline strings in JavaScript and they are becoming a widely used tool
+
+![](../.gitbook/assets/screen-shot-1397-07-02-at-1.54.49-pm.png)
+
+Yet their signs aren't readable enough and therefore we provide an alternative notation.
+
+### Old-School Multi Line Strings
+
+For those who don't like the template strings, this is the alternative solution. Among many ways to arrange the multi line strings, this one is the most beautiful but also the most easy to write. 
+
+![](../.gitbook/assets/screen-shot-1397-07-02-at-1.49.47-pm.png)
+
+Efficiency of this method comes in writing it. A modern text editor can easily be utilized to write such a notation
+
+![](../.gitbook/assets/multiline-string.gif)
+
 ## Ternary Operator
 
 When using ternary operators, remember to always wrap the whole thing in parentheses. Then write a first line with conditions and then after that write the `?` `:` and `)` like this example.
