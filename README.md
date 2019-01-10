@@ -10,18 +10,18 @@ You are reading a draft edition of this document. If you found any errors, pleas
 
 ## Philosophy
 
-Code is something very pretty. It's a form af art and engineering. Yet, we write codes that look messy and horrible. I believe that codes must look nice and beautiful. When you read them they must show how carefully they were written and how much love was put into writing them. Code must look like candy and art. This standard is one—in a [series of attempts](https://writings.kary.us/2017/05/16/my-journey-to-clean-code/)—to push the state of beauty and functionality in code. 
+Code is something very pretty. It's a form of art and engineering. Yet, we write codes that look messy and horrible. I believe that codes must look nice and beautiful. When you read them they must show how carefully they were written and how much love was put into writing them. Code must look like candy and art. This standard is one—in a [series of attempts](https://writings.kary.us/2017/05/16/my-journey-to-clean-code/)—to push the state of beauty and functionality in code. 
 
 ![](.gitbook/assets/screen_shot_1396-12-11_at_2.21.50_am.png)
 
 ## Core Beliefs
 
 1. Programmers are no robots, they have hearts and they deserve beauty.
-2. Code is a  form of art thus it deserves to be written beautifully.
+2. Code is a form of art thus it deserves to be written beautifully.
 3. Code is a Piece of Writing and therefore must have layout and design principles involved in it.
 4. Writing something with care results in higher quality.
 
-Kary Coding Standards a body of works that contains many standards, designs, beliefs, libraries, languages, and tools to achieve a harmonious state-of-the-art coding standard that respects the four mentioned believes. It is itself also a member of a much bigger umbrella project 
+Kary Coding Standards is a body of works that contains many standards, designs, beliefs, libraries, languages, and tools to achieve a harmonious state-of-the-art coding standard that respects the four mentioned believes. It is itself also a member of a much bigger umbrella project 
 
 {% page-ref page="karys-coding-umbrella.md" %}
 
@@ -47,7 +47,7 @@ The Kary Coding Standards are no easy standards to implement. They put functiona
 
 ### Kary Comments
 
-Kary Comments are the foundations of this standard and while most languages contain their own rules and specificities, these are shared widely across any language that implements Kary Coding Standard. For better understanding of these comments, there is a series of short articles explaining them
+Kary Comments are the foundations of this standard and while most languages contain their own rules and specificities, these are shared widely across any language that implements Kary Coding Standard. For better understanding of these comments, there is a series of short articles explaining them.
 
 {% page-ref page="comments/introduction.md" %}
 
